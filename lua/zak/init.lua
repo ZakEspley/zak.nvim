@@ -27,3 +27,5 @@ if vim.fn.has("wsl") then
 --	  vim.keymap.set({"n", "v"}, "y", '"+y', { noremap = true, silent = true })
 --	  vim.keymap.set({"n", "v"}, "p", '"+p', { noremap = true, silent = true })
 end
+
+vim.opt.rnu = true
