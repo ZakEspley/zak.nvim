@@ -1,5 +1,6 @@
 require("zak.remap")
 require("zak.lazy")
+require("zak.set")
 
 function ColorMyPencils(color)
 	color = color
@@ -28,4 +29,3 @@ if vim.fn.has("wsl") then
 --	  vim.keymap.set({"n", "v"}, "p", '"+p', { noremap = true, silent = true })
 end
 
-vim.opt.rnu = true
